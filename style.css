@@ -1,0 +1,51 @@
+#boing {
+    background-color: aquamarine;
+}
+
+#boing:hover {
+    border-color: white;
+}
+
+#boxing {
+    background-color: rgb(240, 73, 61);
+}
+
+#boxing:hover {
+    border-color: white;
+}
+
+#coin {
+    background-color: rgb(238, 223, 10);
+}
+
+#coin:hover {
+    border-color: white;
+}
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    border: solid 0.2rem black;
+    margin: 0.5rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
